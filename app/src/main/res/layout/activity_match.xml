@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/matchTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="21:00"
+            android:padding="25px"
+            android:gravity="center"
+            android:textSize="40px"
+            android:textColor="@android:color/black"
+            >
+        </TextView>
+        <TextView
+            android:id="@+id/matchLeague"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="aaaaaa"
+            android:padding="25px"
+            android:gravity="center"
+            android:textSize="40px"
+            android:textColor="@android:color/black"
+            >
+        </TextView>
+        <TextView
+            android:id="@+id/matchTeam1"
+            android:layout_width="match_parent"
+            android:layout_height="150px"
+            android:text="aaaaaaaaaaaaaaaa"
+            android:textSize="55px"
+            android:maxLength="10"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/matchTeam2"
+            android:layout_width="match_parent"
+            android:layout_height="150px"
+            android:text="aaaaaaaaaaaaaaaa"
+            android:maxLength="10"
+            android:textSize="55px"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            >
+        </TextView>
+        <TextView
+            android:id="@+id/matchScore1"
+            android:layout_width="match_parent"
+            android:layout_height="150px"
+            android:text="0"
+            android:textSize="55px"
+            android:maxLength="10"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/matchScore2"
+            android:layout_width="match_parent"
+            android:layout_height="150px"
+            android:text="0"
+            android:maxLength="10"
+            android:textSize="55px"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            >
+        </TextView>
+        <Button
+            android:id="@+id/matchButton"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/colorPrimary"
+            android:text="Show my favorite matches from this league"
+            ></Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>

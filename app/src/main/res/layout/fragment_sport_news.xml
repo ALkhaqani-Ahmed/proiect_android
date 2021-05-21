@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300px"
+    android:id="@+id/frameLayout"
+    tools:context=".SportNewsFragment">
+
+
+    <TextView
+        android:id="@+id/sportNewsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="This is title"
+        android:textSize="60px"
+        android:textColor="@color/black"
+        android:layout_margin="25px"
+        android:maxLines="3"
+        android:ellipsize="end"
+        />
+
+
+</FrameLayout>

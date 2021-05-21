@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/menu_football"
+        android:enabled="true"
+        android:icon="@drawable/football"
+        android:title="Football"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_hockey"
+        android:enabled="true"
+        android:icon="@drawable/hockey"
+        android:title="Hockey"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_tenis"
+        android:enabled="true"
+        android:icon="@drawable/tennis"
+        android:title="Tennis"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_cricket"
+        android:enabled="true"
+        android:icon="@drawable/cricket"
+        android:title="Cricket"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_basketball"
+        android:enabled="true"
+        android:icon="@drawable/basketball"
+        android:title="Basketball"
+        app:showAsAction="ifRoom" />
+
+</menu>
